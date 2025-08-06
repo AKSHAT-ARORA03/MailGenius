@@ -1,0 +1,11 @@
+{
+  "buildCommand": "prisma generate && npm run build",
+  "env": {
+    "SKIP_ENV_VALIDATION": "1"
+  },
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
